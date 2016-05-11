@@ -1,4 +1,8 @@
 $especial: #3cb1f7;
+$fuente: #807675;
+$fondo2: #f6f6f6;
+$paddings: 130px 0px;
+
 
 header {
 	.loguis {
@@ -10,6 +14,23 @@ header {
 	}
 }
 
+.btn {
+	padding:10px 30px;
+	border-radius: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	font-weight: bolder;
+}
+.btn2 {
+	background:none;
+	border: 1px solid $especial;
+	color: $especial;
+	&:hover {
+		color: darken($especial, 10%);
+	}
+}
+
 #mobile {
 	background: url(../images/3.jpg);
 	background-position:center;
@@ -18,22 +39,13 @@ header {
 	color:white;
 	.negro {
 		background-color: transparentize(black, 0.5);
-		padding-top:130px;
-		padding-bottom:130px;
+		padding: $paddings;
 	}
 	h1 {
 		font-weight: lighter;
 		margin-top: 20px;
 		margin-bottom: 20px;
 		text-shadow: 1px 1px #ccc;
-	}
-	.btn {
-		padding:10px 30px;
-		border-radius: 50px;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		margin-right: 10px;
-		font-weight: bolder;
 	}
 	.btn1 {
 		background-color: $especial;
@@ -42,19 +54,32 @@ header {
 			color: white;
 		}
 	}	
-	.btn2 {
-		background:none;
-		border: 1px solid $especial;
-		color: $especial;
-		&:hover {
-			color: white;
-		}
-	}
+	
 	p {
 		font-weight: lighter;
 	}
 	.icotec {
 		margin-right: 10px;
 		margin-left: 20px;
+	}
+}
+
+#optimize {
+	padding: $paddings;
+	color: $fuente;
+	font-weight: lighter;
+	h2 {
+		font-weight: lighter;
+	}
+	.img1{
+		background: url(../images/2.jpg);
+		background-position:center;
+		background-repeat:none;
+		background-size:cover;	
+		height: 400px;
+	}
+	a {
+		color: $especial;
+		font-weight: bolder;
 	}
 }

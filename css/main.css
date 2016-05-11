@@ -4,6 +4,21 @@ header .navbar {
   border: 0px;
   background: white; }
 
+.btn {
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-weight: bolder; }
+
+.btn2 {
+  background: none;
+  border: 1px solid #3cb1f7;
+  color: #3cb1f7; }
+  .btn2:hover {
+    color: #0b9df5; }
+
 #mobile {
   background: url(../images/3.jpg);
   background-position: center;
@@ -12,35 +27,37 @@ header .navbar {
   color: white; }
   #mobile .negro {
     background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 130px;
-    padding-bottom: 130px; }
+    padding: 130px 0px; }
   #mobile h1 {
     font-weight: lighter;
     margin-top: 20px;
     margin-bottom: 20px;
     text-shadow: 1px 1px #ccc; }
-  #mobile .btn {
-    padding: 10px 30px;
-    border-radius: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    font-weight: bolder; }
   #mobile .btn1 {
     background-color: #3cb1f7; }
     #mobile .btn1:hover {
       background-color: #0b9df5;
-      color: white; }
-  #mobile .btn2 {
-    background: none;
-    border: 1px solid #3cb1f7;
-    color: #3cb1f7; }
-    #mobile .btn2:hover {
       color: white; }
   #mobile p {
     font-weight: lighter; }
   #mobile .icotec {
     margin-right: 10px;
     margin-left: 20px; }
+
+#optimize {
+  padding: 130px 0px;
+  color: #807675;
+  font-weight: lighter; }
+  #optimize h2 {
+    font-weight: lighter; }
+  #optimize .img1 {
+    background: url(../images/2.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 400px; }
+  #optimize a {
+    color: #3cb1f7;
+    font-weight: bolder; }
 
 /*# sourceMappingURL=main.css.map */
