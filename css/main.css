@@ -12,12 +12,30 @@ header .navbar {
   color: white; }
   #mobile .negro {
     background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 100px;
-    padding-bottom: 100px; }
+    padding-top: 130px;
+    padding-bottom: 130px; }
   #mobile h1 {
     font-weight: lighter;
     margin-top: 20px;
     margin-bottom: 20px;
     text-shadow: 1px 1px #ccc; }
+  #mobile .btn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-weight: bolder; }
+  #mobile .btn1 {
+    background-color: #3cb1f7; }
+  #mobile .btn2 {
+    background: none;
+    border: 1px solid #3cb1f7;
+    color: #3cb1f7; }
+  #mobile p {
+    font-weight: lighter; }
+  #mobile .icotec {
+    margin-right: 10px;
+    margin-left: 20px; }
 
 /*# sourceMappingURL=main.css.map */
