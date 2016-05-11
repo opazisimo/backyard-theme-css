@@ -37,11 +37,18 @@ header {
 	}
 	.btn1 {
 		background-color: $especial;
-	}
+		&:hover {
+			background-color:darken($especial, 10%);
+			color: white;
+		}
+	}	
 	.btn2 {
 		background:none;
 		border: 1px solid $especial;
 		color: $especial;
+		&:hover {
+			color: white;
+		}
 	}
 	p {
 		font-weight: lighter;
