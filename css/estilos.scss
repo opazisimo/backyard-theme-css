@@ -7,3 +7,22 @@ header {
 		background: white;
 	}
 }
+
+#mobile {
+	background: url(../images/3.jpg);
+	background-position:center;
+	background-repeat:none;
+	background-position:cover;
+	color:white;
+	.negro {
+		background-color: transparentize(black, 0.5);
+		padding-top:100px;
+		padding-bottom:100px;
+	}
+	h1 {
+		font-weight: lighter;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		text-shadow: 1px 1px #ccc;
+	}
+}

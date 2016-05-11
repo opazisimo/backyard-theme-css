@@ -4,4 +4,20 @@ header .navbar {
   border: 0px;
   background: white; }
 
+#mobile {
+  background: url(../images/3.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-position: cover;
+  color: white; }
+  #mobile .negro {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 100px;
+    padding-bottom: 100px; }
+  #mobile h1 {
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #ccc; }
+
 /*# sourceMappingURL=main.css.map */
