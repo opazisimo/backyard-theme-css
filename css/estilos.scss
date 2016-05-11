@@ -3,6 +3,7 @@ $fuente: #807675;
 $fondo2: #f6f6f6;
 $paddings: 100px 0px;
 $paddingt: 100px;
+$paddingf: 50px 0px;
 
 
 header {
@@ -106,5 +107,33 @@ header {
 	}
 	.srow {
 		padding-top: $paddingt;
+	}
+}
+footer {
+	text-align: center;
+	padding: $paddingf;
+
+	li {
+		display: inline-block;
+		list-style:none;
+	}
+	.icocircle {
+		width: 40px;
+		height: 40px;
+		border-radius:20px;
+		background-color: none;
+		border: 1px solid $especial;
+		color: $especial;
+		display: inline-block;
+		font-size: 20px;
+		text-align: center;
+		line-height: 40px;
+	}
+	p {
+		color: $fuente;
+		font-weight: lighter;
+	}
+	a {
+		color: $especial;
 	}
 }

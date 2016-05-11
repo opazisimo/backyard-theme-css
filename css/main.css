@@ -78,4 +78,27 @@ header .navbar {
   #recreate .srow {
     padding-top: 100px; }
 
+footer {
+  text-align: center;
+  padding: 50px 0px; }
+  footer li {
+    display: inline-block;
+    list-style: none; }
+  footer .icocircle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: none;
+    border: 1px solid #3cb1f7;
+    color: #3cb1f7;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px; }
+  footer p {
+    color: #807675;
+    font-weight: lighter; }
+  footer a {
+    color: #3cb1f7; }
+
 /*# sourceMappingURL=main.css.map */
