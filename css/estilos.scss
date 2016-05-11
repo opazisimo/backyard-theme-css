@@ -1,7 +1,8 @@
 $especial: #3cb1f7;
 $fuente: #807675;
 $fondo2: #f6f6f6;
-$paddings: 130px 0px;
+$paddings: 100px 0px;
+$paddingt: 100px;
 
 
 header {
@@ -81,5 +82,29 @@ header {
 	a {
 		color: $especial;
 		font-weight: bolder;
+	}
+}
+
+#recreate {
+	color: $fuente;
+	font-weight: lighter;
+	background-color: $fondo2;
+	padding: $paddings;
+
+	.titl {
+		text-align: center;
+	}
+	.img2 {
+		background: url(../images/2.jpg);
+		background-position:center;
+		background-repeat:none;
+		background-size:cover;	
+		height: 200px;
+	}
+	h2 {
+		font-weight: lighter;
+	}
+	.srow {
+		padding-top: $paddingt;
 	}
 }

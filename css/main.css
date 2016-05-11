@@ -27,7 +27,7 @@ header .navbar {
   color: white; }
   #mobile .negro {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 130px 0px; }
+    padding: 100px 0px; }
   #mobile h1 {
     font-weight: lighter;
     margin-top: 20px;
@@ -45,7 +45,7 @@ header .navbar {
     margin-left: 20px; }
 
 #optimize {
-  padding: 130px 0px;
+  padding: 100px 0px;
   color: #807675;
   font-weight: lighter; }
   #optimize h2 {
@@ -59,5 +59,23 @@ header .navbar {
   #optimize a {
     color: #3cb1f7;
     font-weight: bolder; }
+
+#recreate {
+  color: #807675;
+  font-weight: lighter;
+  background-color: #f6f6f6;
+  padding: 100px 0px; }
+  #recreate .titl {
+    text-align: center; }
+  #recreate .img2 {
+    background: url(../images/2.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 200px; }
+  #recreate h2 {
+    font-weight: lighter; }
+  #recreate .srow {
+    padding-top: 100px; }
 
 /*# sourceMappingURL=main.css.map */
